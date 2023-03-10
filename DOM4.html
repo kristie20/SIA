@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>DOM4 | Add and Delete Nodes</title>
+    </head>
+
+
+    <body>
+
+        <h1>KRISTIE SALA</h1>
+
+        <script>
+            var newElem = document.createElement("h1");
+            newElem.innertext = "Hellow";
+            newElem.style.color = "teal";
+
+            document.querySelector("button").addEventListener("click"), function(){
+                document.querySelector("h1").remove();
+            }
+
+            document.querySelector("body").appendChild(newElem);
+        </script>
+    </body>
+</html>
